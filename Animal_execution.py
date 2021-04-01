@@ -8,10 +8,9 @@ if __name__=="__main__": # NE PAS SUPPRIMER CETTE LIGNE
 
     #instanciez cet objet. Faites un print de ses attributs.
     chat = Animal(2, 40)
-    print(f"Le poids de l'animal est de : {chat.poids} kg")
-    print(f"La taille de l'animal est de : {chat.taille} cm")
-    chat.se_deplacer() #Ajoutez une méthode se_deplacer( ) qui pour le moment ne fait rien. 
     print (chat)
+    chat.se_deplacer() #Ajoutez une méthode se_deplacer( ) qui pour le moment ne fait rien. 
+    
 
     chat = Animal(2, 40)
     chat.set_poids(-2)

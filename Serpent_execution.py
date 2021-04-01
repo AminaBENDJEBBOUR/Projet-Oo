@@ -8,6 +8,5 @@ if __name__=="__main__": # NE PAS SUPPRIMER CETTE LIGNE
     print("Debut du prog. principal")
 
     anaconda= Serpent(3,4)
-    print(f"Le poids de serpent anaconda est de : {anaconda.poids} kg")
-    print(f"La taille de serpent anaconda est de : {anaconda.taille} cm")
+    print (anaconda)
     anaconda.se_deplacer()

@@ -12,12 +12,13 @@ class Animal:
    
     def get_poids(self): #[Encapsulation] 
         return self.__poids
-
+    def get_taille(self):
+        return self.__taille
 
     def set_poids(self, poids):#[Encapsulation] 
         if poids<0:
             raise ValueError  
-             
+            
         self.__poids = poids
 
      

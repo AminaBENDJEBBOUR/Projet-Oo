@@ -13,6 +13,6 @@ class  Oiseau(Animal): #[Héritage] Crée
 
     def __str__(self):
        
-        return f"Le poids de l'oiseau est de : {self.__poids} kg. La taille de l'animaloiseau est de : {self.__taille} cm"
-
+        return f"Le poids de l'oiseau est de : {self.get_poids()} kg. La taille de l'animaloiseau est de : {self.get_taille()} cm"
+               
 

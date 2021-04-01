@@ -19,7 +19,7 @@ class Zoo:
 
     def __add__(self, other):        
         if isinstance(other, Zoo):            
-            return Zoo(self.liste_animal+other.liste_animal)       
+            return Zoo(self.zoo_1+other.zoo_1)       
         else:           
             return None
 

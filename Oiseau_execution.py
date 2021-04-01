@@ -9,8 +9,7 @@ if __name__=="__main__": # NE PAS SUPPRIMER CETTE LIGNE
     print("Debut du prog. principal")
 
     cygne= Oiseau (3,90,30)
-    print(f"Le poids de l'oiseau est de : {cygne.poids} kg")
-    print(f"La taille de l'oiseau est de : {cygne.taille} cm")
+    print(cygne)
     #[Super fonction]
     print(f"La altitude_max  de l'oiseau est de : {cygne.altitude_max} m")
     cygne.se_deplacer()
