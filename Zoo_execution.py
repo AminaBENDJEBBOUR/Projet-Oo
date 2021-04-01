@@ -22,7 +22,7 @@ if __name__=="__main__": # NE PAS SUPPRIMER CETTE LIGNE
     
     singe = Animal (2,8)
     animaux.add_animal(singe)
-    #print(' '.join([str(i) for i in animaux]))
+    print(' '.join([str(i) for i in animaux.zoo_1]))
     #print(animaux)
 
 
@@ -32,7 +32,7 @@ if __name__=="__main__": # NE PAS SUPPRIMER CETTE LIGNE
     animaux_sauvage=Zoo([lyon, tigre, renard])
     zoo=animaux+animaux_sauvage
     #print(zoo)
-    #print(' '.join([str(i) for i in zoo])) 
+    print(' '.join([str(i) for i in zoo.zoo_1])) 
 
     #cygne= Oiseau (3,90,30)
     #anaconda= Serpent(3,4)
